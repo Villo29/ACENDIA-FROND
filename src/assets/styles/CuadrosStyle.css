@@ -1,0 +1,31 @@
+.contenedor-cuadro {
+  display: flex;
+  justify-content: center;
+  height: auto; /* Ajustamos la altura automática */
+  padding-top: 5px;
+}
+
+.cuadro {
+  width: 400px;
+  height: 150px;
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.textoCuadro1 {
+  color: #ff6600;
+  font-size: 60px;
+}
+
+.textoCuadro2 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
